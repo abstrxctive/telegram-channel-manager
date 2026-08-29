@@ -17,8 +17,8 @@ WEATHER_API = os.getenv("WEATHER_API")
 GROQ_PROXY_URL = os.getenv("GROQ_PROXY_URL")
 GROQ_PROXIES = {"http": GROQ_PROXY_URL, "https": GROQ_PROXY_URL} if GROQ_PROXY_URL else None
 
-LAT = 51.672
-LON = 39.1843
+LAT = ""
+LON = ""
 CITY_QUERY = f"{LAT},{LON}"
 
 TIMEZONE = ZoneInfo("Europe/Moscow")
